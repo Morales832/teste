@@ -1,0 +1,99 @@
+main  {
+    font-family: 'poppins', sans-serif;
+position: absolute;
+width: 1366px;
+height: 651px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #5A6096 0%, #2E3467 58.33%);
+}
+
+
+.pagina {
+
+position: absolute;
+width: 185px;
+height: 90px;
+left: calc(50% - 185px/2 + 0.5px);
+color: white;
+font-family: 'Poppins';
+font-size: 60px;
+line-height: 90px;
+    
+}
+
+.escrev {
+
+position: absolute;
+width: 393px;
+height: 73px;
+left: calc(50% - 393px/2 + 0.5px);
+top: 250px;
+
+background: #D9D9D9;
+border-radius: 15px;
+
+font-family: 'Poppins';
+font-size: 35px;
+text-align: center;
+
+color: #A2A2A2;
+
+}
+
+.escreva {
+position: absolute;
+width: 393px;
+height: 73px;
+left: calc(50% - 393px/2 + 0.5px);
+top: 360px;
+
+background: #D9D9D9;
+border-radius: 15px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-size: 35px;
+text-align: center;
+
+color: #ABABAB;
+
+
+}
+
+.entra {
+
+position: absolute;
+width: 141px;
+height: 83px;
+left: calc(50% - 141px/2 + 0.5px);
+top: 519px;
+background: #676767;
+border-radius: 15px;
+
+font-family: 'Poppins';
+
+font-size: 30px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+ main .entra {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.entra:hover {
+    transform: scale(1.07);
+    cursor: pointer;
+    background-color: rgb(52, 50, 50);
+}
+
+.entra {
+    transition: 0.2s ease-in-out; 
+}
+
+
